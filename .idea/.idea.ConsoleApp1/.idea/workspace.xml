@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7ba69e4-b9e2-4dae-8af9-a6627a1c4efe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/dialog/dog/introductions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/dialog/dog/musings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/dialog/dog/songs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/SmartDog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/SmartDog.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.1/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.1/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.1/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp2.1/ConsoleApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.1/ConsoleApp1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.1/ConsoleApp1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.1/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.1/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.1/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp2.1/ConsoleApp1.pdb" afterDir="false" />
     </list>
@@ -35,8 +29,8 @@
         <option value="$PROJECT_DIR$/ConsoleApp1/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/dialog/dog/introductions.txt" />
         <option value="$PROJECT_DIR$/ConsoleApp1/dialog/dog/songs.txt" />
-        <option value="$PROJECT_DIR$/ConsoleApp1/SmartDog.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/dialog/dog/musings.txt" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/SmartDog.cs" />
       </list>
     </option>
   </component>

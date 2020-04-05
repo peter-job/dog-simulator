@@ -10,6 +10,9 @@ namespace SmartDog
         private string[] musings;
         private string[] songs;
 
+        private int strength = 5;
+        private int pizzazz = 1;
+
         private Queue<string> stuffHesSayingNow;
 
         public SmartDog()
@@ -20,7 +23,15 @@ namespace SmartDog
 
         public void Talk()
         {
-            if (stuffHesSayingNow.Count > 0)
+            if (strength <= 0)
+            {
+                Console.WriteLine("Too tired to talk sorry");
+            }
+            else if (pizzazz >= 5)
+            {
+                Console.WriteLine("I'm too cool for this shit.");
+            } 
+            else if (stuffHesSayingNow.Count > 0)
             {
                 var hisNewSaying = stuffHesSayingNow.Dequeue();
                 Console.WriteLine(hisNewSaying);
@@ -29,6 +40,8 @@ namespace SmartDog
             {
                 Console.WriteLine("*whistles loudly*");
             }
+            strength--;
+            pizzazz++;
         }
 
         public void StartIntroducingYourself()
@@ -58,7 +71,5 @@ namespace SmartDog
         {
             stuffHesSayingNow = new Queue<string>(sayings);
         }
-        
-        
     }
 }
