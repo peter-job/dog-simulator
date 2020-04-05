@@ -8,3 +8,6 @@ C:\Users\PeterJob\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\
 C:\Users\PeterJob\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
 C:\Users\PeterJob\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
 C:\Users\PeterJob\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Users\PeterJob\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\dialog\dog\introductions.txt
+C:\Users\PeterJob\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\dialog\dog\musings.txt
+C:\Users\PeterJob\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\dialog\dog\songs.txt

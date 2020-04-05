@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace SmartDog
 {
@@ -13,8 +14,8 @@ namespace SmartDog
 
         public SmartDog()
         {
-            SetupTheDogSayings();
-            stuffHesSayingNow = new Queue<string>(introductions);
+            ReadSayingsFromFile();
+            StartIntroducingYourself();
         }
 
         public void Talk()
@@ -45,25 +46,12 @@ namespace SmartDog
             SetWhatHesSayingNow(songs);
         }
         
-        private void SetupTheDogSayings()
+        private void ReadSayingsFromFile()
         {
-            introductions = new[]
-            {
-                "Hi who are you? I'm a cool dog.",
-                "Well would you look at the weather!"
-            };
-
-            musings = new[]
-            {
-                "Ya ever thingk about the size of cars these days.",
-                "I got a hundred thousand ideas if you would listen to them..."
-            };
-
-            songs = new[]
-            {
-                "Hahaha I know a really funny song! Well let me sing it for you hahaha ok *sings yankee doodle*",
-                "Sing us a song, mister piano man, Sing us a song tonight..."
-            };
+            // read this stuff from files now
+            introductions = File.ReadAllLines("dialog/dog/introductions.txt");
+            musings = File.ReadAllLines("dialog/dog/musings.txt");
+            songs = File.ReadAllLines("dialog/dog/songs.txt");
         }
         
         private void SetWhatHesSayingNow(string[] sayings)
